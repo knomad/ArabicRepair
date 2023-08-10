@@ -1,0 +1,48 @@
+textarea.inputtext
+{
+    width: 100%;
+    min-height: 300pt;
+    resize: vertical;
+}
+
+.width100{
+    width: 100%;
+}
+
+.container{
+    padding: 20pt;
+}
+
+div.options{
+    border: black solid thin;
+    margin-top: 10pt;
+    padding: 10px;
+}
+
+p.optioncontainer{
+    vertical-align: center;
+    margin: 0;
+    margin-left: 20pt;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+    font-size: 1.5rem;
+}
+
+p.optioncontainer>input{
+    vertical-align: middle;
+}
+
+p.optioncontainer>label{
+    display: inline-block;
+    padding-right: 10px;
+    white-space: nowrap;
+    user-select: none;
+}
+
+input.button{
+    margin: 2px;
+    padding: 10px;
+}

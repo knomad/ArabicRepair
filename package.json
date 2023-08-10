@@ -1,0 +1,27 @@
+{
+  "name": "ArabicTextFixer",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "prebuild": "npm run clean",
+    "clean": "npx rimraf dist"
+  },
+  "dependencies": {
+    "jquery": "^3.7.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.9.3",
+    "@types/jquery": "^3.5.16"
+  },
+  "targets": {
+    "default": {
+      "distDir": "./dist",
+      "optimize": true,
+      "scopeHoist": true,
+      "outputFormat": "esmodule"
+    }
+  },
+  "browserslist": "Chrome 80"
+}
