@@ -18,8 +18,8 @@
   "targets": {
     "default": {
       "distDir": "./dist",
-      "optimize": true,
-      "scopeHoist": true,
+      "optimize": false,
+      "scopeHoist": false,
       "outputFormat": "esmodule"
     }
   },
