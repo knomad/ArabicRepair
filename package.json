@@ -1,5 +1,5 @@
 {
-  "name": "ArabicTextFixer",
+  "name": "arabic-text-fixer",
   "source": "src/index.html",
   "version": "1.0.0",
   "scripts": {
@@ -18,9 +18,10 @@
   "targets": {
     "default": {
       "distDir": "./dist",
-      "optimize": false,
-      "scopeHoist": false,
-      "outputFormat": "esmodule"
+      "optimize": true,
+      "scopeHoist": true,
+      "outputFormat": "esmodule",
+      "publicUrl": "."
     }
   },
   "browserslist": "Chrome 80"

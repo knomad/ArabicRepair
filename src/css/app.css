@@ -1,7 +1,7 @@
 textarea.inputtext
 {
     width: 100%;
-    min-height: 300pt;
+    min-height: 200pt;
     resize: vertical;
 }
 
@@ -21,14 +21,13 @@ div.options{
 
 p.optioncontainer{
     vertical-align: center;
-    margin: 0;
-    margin-left: 20pt;
+    margin: 0 0 0 20pt;
     font-weight: bold;
     line-height: 1.1;
     display: grid;
     grid-template-columns: 1em auto;
     gap: 0.5em;
-    font-size: 1.5rem;
+    font-size: 1.0rem;
 }
 
 p.optioncontainer>input{
